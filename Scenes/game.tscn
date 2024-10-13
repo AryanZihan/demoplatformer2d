@@ -418,8 +418,10 @@ script = ExtResource("1_ytnli")
 
 [node name="scorecount" type="Label" parent="GameManager/CanvasLayer"]
 modulate = Color(0.000538022, 0.000157089, 7.87462e-05, 1)
-offset_right = 61.0
-offset_bottom = 23.0
+offset_left = 5.0
+offset_top = 11.0
+offset_right = 76.0
+offset_bottom = 34.0
 text = "Score: 0"
 
 [node name="Player" parent="." instance=ExtResource("1_j1w4k")]
